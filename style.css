@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: "poppins",serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, grey,yellow,rgb(236, 145, 145));
+}
+.container .box{
+width: 200px;
+height: 200px;
+border: 1px solid black;
+margin-bottom: 20px;
+background-color: #fcfcfc;
+display: flex;
+justify-content: center;
+align-items: center;
+font-style: italic;
+font-size: 20px;
+}
+label{
+    font-size: 1.2rem;
+}
+.container .inputbox{
+background-color: antiquewhite;
+    height: 200px;
+    width: 400px;
+    margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 12px;
+}
+.inputbox .userRange{
+   width: 60%;
+   height: 10px;
+   accent-color: green;
+   background-color: transparent;
+   margin-top: 10px;
+}
+.inputbox .userInput{
+   width: 60%;
+   outline: none;
+   padding: 12px;
+   border: 1px solid transparent;
+   border-radius: 5px;
+   background-color: #ddd;
+   color: rgb(12, 12, 12);
+   font-size: 18px;
+
+}
